@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+main {
+    max-width: 950px;
+    min-width: 400px;
+    margin: auto;
+}
+
+.backButton {
+    display: absolute;
+    color: black;
+    cursor: pointer;
+    height: 35px;
+    margin: 2px;
+    font-weight: 700;
+    border-radius: 25px;
+    transition: all ease-in-out .3s;
+    border: 2px solid black;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.backButton:hover {
+    color: #fff;
+    background-color: black;
+}
+
+header {
+    height: 20vh;
+    min-width: 400px;
+    background-color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding: 10px;
+    font-size: x-large;
+    font-weight: 900;
+    background-color: white;
+}
+
+hr {
+    position: relative;
+    width: 75%;
+    border-top: 3px solid black;
+    border-radius: 5px;
+}
+
+nav {
+    z-index: 10;
+    min-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0px 0px 5px 5px white;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+    color: black;
+    font-weight: bolder;
+}
+
+#avantages {
+    padding-top: 20px;
+}
+
+#avantages div {
+    text-align: right;
+    margin: 50px 20px 0 0;
+}
+
+#avantages div h3 {
+    background-color: rgb(224.335, 224.335, 224.335);
+}
+
+#avantages div:nth-child(2) {
+    text-align: left;
+    margin: 50px 0 0 20px;
+}
+
+#avantages div:nth-child(2) h3 {
+    background-color: rgb(79.991, 172.004, 255);
+}
+
+#astuces svg {
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+
+#astuces div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
+#astuces div h3 {
+    margin: 0;
+}
+
+#astuces div p {
+    width: 65%;
+}
+
+#pratiques {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#pratiques div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    border-radius: 2.5px;
+    padding: 10px;
+}
+
+#pratiques div:nth-child(odd) {
+    background-color: rgb(79.991, 172.004, 255);
+}
+
+#pratiques div:nth-child(even) {
+    background-color: rgb(224.335, 224.335, 224.335);
+}
+
+#pratiques div span {
+    font-size: xx-large;
+}
+
+#pratiques div h4 {
+    margin: 0;
+}
+
+footer nav {
+    height: 10%;
+    border-top: 1px solid black;
+    box-shadow: 0px -1px 5px 0px black;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+    #pratiques {
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 750px) {
+    #pratiques {
+        grid-template-rows: repeat(2, 1fr);
+    }
+}

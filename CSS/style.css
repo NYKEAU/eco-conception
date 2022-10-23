@@ -1,0 +1,144 @@
+	html,
+	body {
+		font-family: "Times New Roman";
+		background-image: url("../MEDIA/background.jpg");
+		background-size: 100%;
+	}
+
+	header {
+		display: flex;
+		justify-content: space-between;
+		cursor: pointer;
+	}
+
+	.backButton {
+		display: absolute;
+		color: black;
+		cursor: pointer;
+		height: 35px;
+		margin: 2px;
+		font-weight: 700;
+		border-radius: 25px;
+		transition: all ease-in-out .3s;
+		border: 2px solid black;
+		letter-spacing: 2px;
+		text-align: center;
+	}
+
+	.backButton:hover {
+		color: #fff;
+		background-color: black;
+	}
+
+	h1 {
+		color: #ffffff;
+		background-color: #2ea81c;
+		height: 40px;
+		width: 280px;
+	}
+
+	h2 {
+		color: #ffffff;
+		background-color: #2ea81c;
+		height: 30px;
+		width: absolute;
+	}
+
+	h3 {
+		color: #ffffff;
+		background-color: #000000;
+		height: 30px;
+		width: 200px;
+	}
+
+	p {
+		color: #ffffff;
+		background-color: #2ea81c;
+
+		width: 100%;
+	}
+
+	table {
+		border: #000000;
+		border-spacing: 3px;
+
+	}
+
+	division {
+		text-align: center;
+		color: #000000;
+		background-color: #ffff00;
+
+	}
+
+	division2 {
+		text-align: center;
+		color: #ffffff;
+		background-color: #2ea81c;
+	}
+
+	a {
+		color: #000000;
+		background-color: #ffffff;
+		text-decoration: none;
+
+	}
+
+	a:hover {
+		background-color: #000000;
+		/*change la couleur du fond du lien*/
+		color: #ffffff;
+		/*change la couleur du texte du lien*/
+		text-decoration: none;
+	}
+
+	.liens-images a {
+		/* Tous les liens menant à des images */
+		color: #ffffff;
+		background-color: #2ea81c;
+		text-decoration: none;
+	}
+
+	.liens-images a:hover {
+		/* Quand on pointe sur un lien */
+		color: #2ea81c;
+		/*change la couleur du texte du lien*/
+		background-color: #ffffff;
+		/*change la couleur du fond du lien*/
+		text-decoration: none;
+	}
+
+	#onglets {
+		background-color: #2ea81c;
+
+	}
+
+	/*Modifie les 2 autres ongles*/
+	#onglets li {
+		float: top;
+		background-color: #2ea81c;
+		margin-bottom: 15px;
+	}
+
+	#onglets a {
+		color: #ffffff;
+		background-color: #2ea81c;
+		text-decoration: none;
+		border: 2px solid #000000;
+
+	}
+
+	#onglets a:hover {
+		background-color: #ffffff;
+		/*change la couleur du fond du lien*/
+		color: #2ea81c;
+		/*change la couleur du texte du lien*/
+		text-decoration: none;
+	}
+
+
+	#onglets {
+		background-color: #2ea81c;
+		font-family: "Times New Roman";
+		list-style-type: none;
+	}
