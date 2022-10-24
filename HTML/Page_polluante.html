@@ -10,186 +10,189 @@
 		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </Head>
 
-<body class="fond_1">
+<body>
 	<button class="backButton" onclick="history.back()">Retour</button>
+	<div class="fond_1">
+		<!--                                                HAUT                                                              -->
+		<br>
+		<h1 class="boite_0">Cette page web pollue !</h1>
 
-	<!--                                                HAUT                                                              -->
-	<br>
-	<h1 class="boite_0">Cette page web pollue !</h1>
+		<p class="boite_2"> Il existe de nombreuses habitudes de web-design qui peuvent rendre
+			vos pages web moins polluantes. Nous allons vour quels sont ces habitudes.</p>
 
-	<p class="boite_2"> Il existe de nombreuses habitudes de web-design qui peuvent rendre
-		vos pages web moins polluantes. Nous allons vour quels sont ces habitudes.</p>
-
-	<div class="boite_1">
-		<div class="ligne_1">
-			<div class="colonne_1">
-				<button class="bouton_1" onclick="Ouvre(event,'ONGLET_1')"> Pourquoi le web pollue ? </button>
-			</div>
-			<div class="colonne_1">
-				<button class="bouton_1" onclick="Ouvre(event,'ONGLET_2')"> Le contenu de la page </button>
-			</div>
-			<div class="colonne_1">
-				<button class="bouton_1" onclick="Ouvre(event,'ONGLET_3')"> Autres conseils </button>
+		<div class="boite_1">
+			<div class="ligne_1">
+				<div class="colonne_1">
+					<button class="bouton_1" onclick="Ouvre(event,'ONGLET_1')"> Pourquoi le web pollue ? </button>
+				</div>
+				<div class="colonne_1">
+					<button class="bouton_1" onclick="Ouvre(event,'ONGLET_2')"> Le contenu de la page </button>
+				</div>
+				<div class="colonne_1">
+					<button class="bouton_1" onclick="Ouvre(event,'ONGLET_3')"> Autres conseils </button>
+				</div>
 			</div>
 		</div>
-	</div>
 
-	<!--                                                ONLET 1                                                           -->
-	<div id="ONGLET_1" class="ContenuOnglet">
-		<br>
-		<h1 class="Texte_Titre">Pourquoi le web pollue ? </h1><br>
-		<div class="boite_Info_1">
+		<!--                                                ONLET 1                                                           -->
+		<div id="ONGLET_1" class="ContenuOnglet">
 			<br>
-			<div class="Texte_Grand">A cause du stockage !</div>
-			<br>
-			Le code d'un site web doit être stocké dans un data center.
-			Les data-centers représentent la majorité de la
-			pollution émise par le web car ils consomment beaucoup d'énergie.
-			<br><br>
-			Aujourd'hui avec l'explosion du nombre de sites web il est nécessaire d'adopter
-			une démarche de développement web écoresponsable.
-			<br><br>
-			En diminuant la taille de votre code source vous diminuez
-			le coût de stockage de votre page web et donc son coût en énergie.
-			<br><br>
-			<div class="Texte_Grand">Comment faire pour alléger sa page web ?</div>
-			<br>
-			<div style="color: yellow;">
-				• Minimiser le code source. <br><br>
-				• Minimiser les scripts <br><br>
-				• Minimiser le design do votre page et les effets superflu <br><br>
-				• Minimiser les balises "div" et "class" superflu <br><br>
-				• Utiliser des langages de programmation économes <br><br>
-				• Minimiser les échanges d'informations et les requêtes
-				entre utilisateur et serveur<br>
+			<h1 class="Texte_Titre">Pourquoi le web pollue ? </h1><br>
+			<div class="boite_Info_1">
+				<br>
+				<div class="Texte_Grand">A cause du stockage !</div>
+				<br>
+				Le code d'un site web doit être stocké dans un data center.
+				Les data-centers représentent la majorité de la
+				pollution émise par le web car ils consomment beaucoup d'énergie.
+				<br><br>
+				Aujourd'hui avec l'explosion du nombre de sites web il est nécessaire d'adopter
+				une démarche de développement web écoresponsable.
+				<br><br>
+				En diminuant la taille de votre code source vous diminuez
+				le coût de stockage de votre page web et donc son coût en énergie.
+				<br><br>
+				<div class="Texte_Grand">Comment faire pour alléger sa page web ?</div>
+				<br>
+				<div style="color: yellow;">
+					• Minimiser le code source. <br><br>
+					• Minimiser les scripts <br><br>
+					• Minimiser le design do votre page et les effets superflu <br><br>
+					• Minimiser les balises "div" et "class" superflu <br><br>
+					• Utiliser des langages de programmation économes <br><br>
+					• Minimiser les échanges d'informations et les requêtes
+					entre utilisateur et serveur<br>
+				</div><br>
+				<div class="Texte_Grand">La clé c'est l'optimisation et le minimalisme !</div><br>
+				Un site web de 100 lignes de code peut donner à l'utilisateur les mêmes informations
+				qu'un site web de 1000 lignes de code !
+				<br><br>
 			</div><br>
-			<div class="Texte_Grand">La clé c'est l'optimisation et le minimalisme !</div><br>
-			Un site web de 100 lignes de code peut donner à l'utilisateur les mêmes informations
-			qu'un site web de 1000 lignes de code !
-			<br><br>
-		</div><br>
-	</div>
-	<!--                                                ONLET 2                                                           -->
-	<div id="ONGLET_2" class="ContenuOnglet">
-		<br>
-		<h1 class="Texte_Titre">Le contenu de la page </h1><br>
-		<div class="boite_Info_1">
+		</div>
+		<!--                                                ONLET 2                                                           -->
+		<div id="ONGLET_2" class="ContenuOnglet">
 			<br>
-			<div class="Texte_Grand">Les médias ? Moins il y en a mieux c'est !</div>
-			<br>
-			Dans le web-design ce qui alourdit le plus une page web sont les médias, ces médias
-			peuvent être :<br><br>
-			<div class="ligne_1">
-				<div class="colonne_2">
-					<p class="Texte_Grand_2">• Une image :</p>
-					<img src="../MEDIA/DATACENTER.jpg" alt="IMAGE_DATACENTER" width="40%" height="40%">
+			<h1 class="Texte_Titre">Le contenu de la page </h1><br>
+			<div class="boite_Info_1">
+				<br>
+				<div class="Texte_Grand">Les médias ? Moins il y en a mieux c'est !</div>
+				<br>
+				Dans le web-design ce qui alourdit le plus une page web sont les médias, ces médias
+				peuvent être :<br><br>
+				<div class="ligne_1">
+					<div class="colonne_2">
+						<p class="Texte_Grand_2">• Une image :</p>
+						<img src="../MEDIA/DATACENTER.jpg" alt="IMAGE_DATACENTER" width="40%" height="40%">
+					</div>
+					<div class="colonne_2">
+						<p class="Texte_Grand_2">• Un gif :</p>
+						<img src="../MEDIA/data_center_gif.gif" alt="GIF_DATACENTER" width="40%" height="40%">
+					</div>
+				</div><br><br>
+				<div class="ligne_1">
+					<div class="colonne_2">
+						<p class="Texte_Grand_2">• Une vidéo :</p>
+						<video controls width="30%" height="30%">
+							<source src="../MEDIA/video_mail.webm" type="video/webm">
+						</video>
+					</div>
+					<div class="colonne_2">
+						<p class="Texte_Grand_2">• Un audio :<br></p>
+						<audio controls style="width: 50%">
+							<source src="../MEDIA/AUDIO.mp3" type="audio/mpeg">
+						</audio>
+					</div>
+				</div><br>
+				<div class="Texte_Grand">Pourquoi faut-il limiter les médias sur votre page ?</div>
+				<br><br>
+				Quand un utilisateur se connecte sur votre page web une requête http envoie sur son navigateur tous les
+				fichiers
+				dont il a besoin pour l'affichage. Ces rêquete consomment de l'énergie.
+				<br><br>
+				De plus chaque média que vous hébergez vous-même a un coût de stockage dans les data centers.
+				<br><br>
+				<div class="Texte_Grand">Comment faire pour bien gérer les médias ?</div>
+				<br><br>
+				<div style="color: yellow;">
+					• Limiter au maximum le nombre de médias sur votre page, garder uniquement les médias essentiels.
+					<br><br>
+					• Compressez et réduisez la taille de vos images. Adaptez leur résolution à votre utilisation.
+					<br><br>
+					• Éviter les images en haute résolution où compressez-les.
+					<br><br>
+					• Privilégier aussi les images vectorielles et les icônes.
+					<br><br>
+					• Si le média est déjà hebergée ailleurs, utiliser un lien plutôt que de la réhéberger.
+					<br><br>
+					• Diminuer la résolution de vos vidéos au minimum. Et éviter l'auto play.
 				</div>
-				<div class="colonne_2">
-					<p class="Texte_Grand_2">• Un gif :</p>
-					<img src="../MEDIA/data_center_gif.gif" alt="GIF_DATACENTER" width="40%" height="40%">
-				</div>
-			</div><br><br>
-			<div class="ligne_1">
-				<div class="colonne_2">
-					<p class="Texte_Grand_2">• Une vidéo :</p>
-					<video controls width="30%" height="30%">
-						<source src="../MEDIA/video_mail.webm" type="video/webm">
-					</video>
-				</div>
-				<div class="colonne_2">
-					<p class="Texte_Grand_2">• Un audio :<br></p>
-					<audio controls style="width: 50%">
-						<source src="../MEDIA/AUDIO.mp3" type="audio/mpeg">
-					</audio>
-				</div>
+				<br><br>
+				En plus de rendre votre site plus écologique, diminuer le nombre de média va aussi le rendre plus rapide
+				!
+				<br><br>
 			</div><br>
-			<div class="Texte_Grand">Pourquoi faut-il limiter les médias sur votre page ?</div>
-			<br><br>
-			Quand un utilisateur se connecte sur votre page web une requête http envoie sur son navigateur tous les
-			fichiers
-			dont il a besoin pour l'affichage. Ces rêquete consomment de l'énergie.
-			<br><br>
-			De plus chaque média que vous hébergez vous-même a un coût de stockage dans les data centers.
-			<br><br>
-			<div class="Texte_Grand">Comment faire pour bien gérer les médias ?</div>
-			<br><br>
-			<div style="color: yellow;">
-				• Limiter au maximum le nombre de médias sur votre page, garder uniquement les médias essentiels.
-				<br><br>
-				• Compressez et réduisez la taille de vos images. Adaptez leur résolution à votre utilisation.
-				<br><br>
-				• Éviter les images en haute résolution où compressez-les.
-				<br><br>
-				• Privilégier aussi les images vectorielles et les icônes.
-				<br><br>
-				• Si le média est déjà hebergée ailleurs, utiliser un lien plutôt que de la réhéberger.
-				<br><br>
-				• Diminuer la résolution de vos vidéos au minimum. Et éviter l'auto play.
-			</div>
-			<br><br>
-			En plus de rendre votre site plus écologique, diminuer le nombre de média va aussi le rendre plus rapide !
-			<br><br>
-		</div><br>
-	</div>
-	<!--                                                ONGLET 3                                                           -->
-	<div id="ONGLET_3" class="ContenuOnglet">
-		<br>
-		<h1 class="Texte_Titre">Autres conseils </h1><br>
-		<div class="boite_Info_1">
+		</div>
+		<!--                                                ONGLET 3                                                           -->
+		<div id="ONGLET_3" class="ContenuOnglet">
 			<br>
-			<div class="Texte_Grand">Les polices d'écritures</div>
-			<br>
-			Il existe plusieurs types de polices d'écriture. <br><br>
-			<div style="color: yellow;">
-				• Il y a les polices natives : celles-ci sont déjà installés sur vos appareils :
-			</div>
-			<br>
-			Exemples de polices natives :<br><br>
-			<div style="font-family:'Arial'"> Arial</div>
-			<div style="font-family:'Times New Roman'"> Times New Roman</div>
-			<div style="font-family:'Garamond'">Garamond</div>
-			<div style="font-family:'Courier New'">Courier New</div>
-			<div style="font-family:'Verdana'">Verdana</div>
-			<br>
-			<div style="color: yellow;">
-				• Et il y a les polices customisées :
+			<h1 class="Texte_Titre">Autres conseils </h1><br>
+			<div class="boite_Info_1">
+				<br>
+				<div class="Texte_Grand">Les polices d'écritures</div>
+				<br>
+				Il existe plusieurs types de polices d'écriture. <br><br>
+				<div style="color: yellow;">
+					• Il y a les polices natives : celles-ci sont déjà installés sur vos appareils :
+				</div>
+				<br>
+				Exemples de polices natives :<br><br>
+				<div style="font-family:'Arial'"> Arial</div>
+				<div style="font-family:'Times New Roman'"> Times New Roman</div>
+				<div style="font-family:'Garamond'">Garamond</div>
+				<div style="font-family:'Courier New'">Courier New</div>
+				<div style="font-family:'Verdana'">Verdana</div>
+				<br>
+				<div style="color: yellow;">
+					• Et il y a les polices customisées :
+				</div><br>
+				si vous décidez de les utiliser sur votre page le serveur aura besoin d'envoyer des requêtes pour
+				afficher
+				et télecharger ces polices.<br><br>
+				Si vous minimisez le nombre de rêquetes votre sit sera mieux optimisé et consommera donc moins
+				d'énergie.<br>
+				En écoconception il est d'ailleurs recommandé de s'en tenir à deux polices d'écriture maximum.
+				<br><br>
+				<div class="Texte_Grand">Un design simple</div>
+				<br>
+				• Plus le design de votre page web est simple, plus votre page sera écologique. Car cela limitera
+				les échanges d'informations et les rêquetes<br><br>
+				• Minimisez le nombre de boutons,évitez de mettre trop de dynamisme.
+				Privilegiez une page statique et donc économe.<br><br>
+				• Assureé vous que l'utilisateur trouve rapidement les informations qu'il cherche et ne soit pas perdu
+				(chaque clic est un échange d'informations qui coute de l'énergie)
+				<br><br>
+				• Choisissez soigneusement vos couleurs. Certaines couleurs comme le bleu consomment plus d'énergie.
+				En écoconception il est recommandée de s'en tenir à trois couleurs maximum.
+				<br><br>
+				• Minimisez le nombre d'animations (exemple : animations Javascript).
+				<br><br>
+				<div class="Texte_Grand">Tester vos pages web !</div>
+				<br>
+				Il existe de nombreux outils (plugins, sites) pour calculer l'impact écologique de vos pages web<br>
+				Comme : <a href="https://www.websitecarbon.com/">www.websitecarbon.com</a>
+				<br><br>N'hésitez pas à les utiliser pour tester vos pages.
+				<br><br>
 			</div><br>
-			si vous décidez de les utiliser sur votre page le serveur aura besoin d'envoyer des requêtes pour afficher
-			et télecharger ces polices.<br><br>
-			Si vous minimisez le nombre de rêquetes votre sit sera mieux optimisé et consommera donc moins
-			d'énergie.<br>
-			En écoconception il est d'ailleurs recommandé de s'en tenir à deux polices d'écriture maximum.
-			<br><br>
-			<div class="Texte_Grand">Un design simple</div>
-			<br>
-			• Plus le design de votre page web est simple, plus votre page sera écologique. Car cela limitera
-			les échanges d'informations et les rêquetes<br><br>
-			• Minimisez le nombre de boutons,évitez de mettre trop de dynamisme.
-			Privilegiez une page statique et donc économe.<br><br>
-			• Assureé vous que l'utilisateur trouve rapidement les informations qu'il cherche et ne soit pas perdu
-			(chaque clic est un échange d'informations qui coute de l'énergie)
-			<br><br>
-			• Choisissez soigneusement vos couleurs. Certaines couleurs comme le bleu consomment plus d'énergie.
-			En écoconception il est recommandée de s'en tenir à trois couleurs maximum.
-			<br><br>
-			• Minimisez le nombre d'animations (exemple : animations Javascript).
-			<br><br>
-			<div class="Texte_Grand">Tester vos pages web !</div>
-			<br>
-			Il existe de nombreux outils (plugins, sites) pour calculer l'impact écologique de vos pages web<br>
-			Comme : <a href="https://www.websitecarbon.com/">www.websitecarbon.com</a>
-			<br><br>N'hésitez pas à les utiliser pour tester vos pages.
-			<br><br>
-		</div><br>
+		</div>
+		<!--                                                FOOTER                                                            -->
+		<br><br>
+		<div class="boiteBordure">
+			Réalisé par : Lucas LEVILLAIN<br>
+			Pour le projet : L'éco-conception web<br>
+			Supervisé par : Mme. Hadhoum BOUKACHOUR
+		</div>
+		<br><br>
 	</div>
-	<!--                                                FOOTER                                                            -->
-	<br><br>
-	<div class="boiteBordure">
-		Réalisé par : Lucas LEVILLAIN<br>
-		Pour le projet : L'éco-conception web<br>
-		Supervisé par : Mme. Hadhoum BOUKACHOUR
-	</div>
-	<br><br>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
 		</script>

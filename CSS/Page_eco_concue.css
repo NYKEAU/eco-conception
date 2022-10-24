@@ -22,6 +22,8 @@ main {
 
 .backButton {
     display: absolute;
+    z-index: 100;
+    position: fixed;
     color: black;
     cursor: pointer;
     height: 35px;

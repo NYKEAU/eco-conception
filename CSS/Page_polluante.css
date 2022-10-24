@@ -1,13 +1,39 @@
+body {
+	background: url(../MEDIA/Back_Noir.jpg) no-repeat center center fixed;
+}
+
 .fond_1 {
-	background: url(../MEDIA/Back_Noir.jpg) no-repeat center center fixed; 
-  		-webkit-background-size: cover;
-  		-moz-background-size: cover;
-  		-o-background-size: cover;
-  		background-size: cover;
-    width:95%;
-    margin: 0 auto;
+	background-color: transparent;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 95%;
+	margin: 0 auto;
 	font-size: 13px;
 }
+
+.backButton {
+	display: absolute;
+	z-index: 100;
+	position: fixed;
+	color: black;
+	cursor: pointer;
+	height: 35px;
+	margin: 2px;
+	font-weight: 700;
+	border-radius: 25px;
+	transition: all ease-in-out .3s;
+	border: 2px solid black;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.backButton:hover {
+	color: #fff;
+	background-color: black;
+}
+
 .boite_0 {
 	font-weight: bold;
 	border-left: solid black;
@@ -42,10 +68,10 @@
 .boite_2 {
 	background-image: url("Back_Bleu.jpg");
 	-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
 	border-spacing: 0;
 	text-align: center;
 	padding: 1vw;
@@ -66,10 +92,11 @@
 	padding: 1vw;
 	margin: 0;
 	border: solid;
-	font-family:'Trebuchet MS', sans-serif;
+	font-family: 'Trebuchet MS', sans-serif;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%; height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 .onglet {
@@ -77,33 +104,33 @@
 	text-align: center;
 	margin: 0;
 	border: solid;
-	font-family:'Trebuchet MS', sans-serif;
+	font-family: 'Trebuchet MS', sans-serif;
 }
 
 .bouton_1 {
 	background-image: url("../MEDIA/Back_Noir.jpg");
-	color: white ;
-    display: inline-block;
-    outline: 0;
-    cursor: pointer;
-    border-radius: 6px;
+	color: white;
+	display: inline-block;
+	outline: 0;
+	cursor: pointer;
+	border-radius: 6px;
 	border: 2px solid black;
 	box-shadow: rgba(0, 0, 0, 0.07) 0px 2px 4px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1.5px 0px;
 	font-weight: 800;
 	font-size: 1.5vw;
-	height: 3.7vw;  
+	height: 3.7vw;
 }
 
-.bouton_1:hover{
-    background: 0 0;
-    color: black;
+.bouton_1:hover {
+	background: 0 0;
+	color: black;
 }
 
 .ContenuOnglet {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid black;
-  border-top: none;
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid black;
+	border-top: none;
 }
 
 .boite_Info_1 {
@@ -111,16 +138,16 @@
 	text-align: center;
 	background-image: url("../MEDIA/Back_Bleu.jpg");
 	-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
 	padding: 1vw;
 	margin: 0;
 	color: white;
 	border: solid;
 	border-color: black;
-	font-family:'Trebuchet MS', sans-serif;
+	font-family: 'Trebuchet MS', sans-serif;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -137,42 +164,42 @@
 
 .Texte_Titre {
 	color: white;
-	text-align: center; 
+	text-align: center;
 	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 	font-weight: bold;
 	font-size: 30px;
 }
 
 .blocktext {
-    margin-left: auto;
-    margin-right: auto;
-    width: 40em
+	margin-left: auto;
+	margin-right: auto;
+	width: 40em
 }
 
 .boiteBordure {
-  border: 1px solid black;
-  text-align: center;
-  color: white;
+	border: 1px solid black;
+	text-align: center;
+	color: white;
 }
 
 .colonne_1 {
-  float: left;
-  width: 33%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+	float: left;
+	width: 33%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .ligne_1:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .colonne_2 {
-  float: left;
-  width: 50%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
