@@ -52,7 +52,7 @@
 		width: auto;
 	}
 
-	tbody {
+	table>* {
 		text-align: center;
 		color: #fff;
 		background-color: #2ea81c;
