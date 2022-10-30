@@ -33,17 +33,18 @@
 
 	h3 {
 		color: #fff;
-		background-color: #000;
+		background-color: #08a3d6;
 		height: 30px;
-		width: 200px;
+		width: 45%;
 	}
 
 	p {
 		color: #fff;
 		background-color: #2ea81c;
-
-		width: 100%;
+		width: 40%;
+		
 	}
+	
 
 	table {
 		border: 3px #000;
@@ -59,16 +60,22 @@
 	}
 
 	a {
-		color: #000;
-		background-color: #fff;
+		color: #fff;
+		background-color: #08a3d6;
 		text-decoration: none;
 
 	}
-
-	a:hover {
-		background-color: #000;
-		/*change la couleur du fond du lien*/
+	
+	.BasDePage {
+		text-align:center;
 		color: #fff;
+		background-color: #08a3d6;
+			
+	}
+	a:hover {
+		background-color: #fff;
+		/*change la couleur du fond du lien*/
+		color: #08a3d6;
 		/*change la couleur du texte du lien*/
 		text-decoration: none;
 	}
