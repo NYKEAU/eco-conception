@@ -21,19 +21,19 @@
 		color: #fff;
 		background-color: #2ea81c;
 		height: 40px;
-		width: 280px;
+		width: absolute;
 	}
 
 	h2 {
 		color: #fff;
 		background-color: #2ea81c;
 		height: 30px;
-		width: absolute;
+		width: 40%;
 	}
 
 	h3 {
 		color: #fff;
-		background-color: #08a3d6;
+		background-color: #0f6bbd;
 		height: 30px;
 		width: 45%;
 	}
@@ -44,6 +44,20 @@
 		width: 40%;
 		
 	}
+
+	#boxes {
+		float: left;
+		height: 470px;
+		width: 23%;
+		padding: 0 10px;
+	  }
+
+	#boxes1 {
+		float: right;
+		height: 470px;
+		width: 23%;
+		padding: 0 10px;
+	  }
 	
 
 	table {
@@ -61,7 +75,7 @@
 
 	a {
 		color: #fff;
-		background-color: #08a3d6;
+		background-color: #0f6bbd;
 		text-decoration: none;
 
 	}
@@ -69,7 +83,7 @@
 	.BasDePage {
 		text-align:center;
 		color: #fff;
-		background-color: #08a3d6;
+		background-color: #0f6bbd;
 			
 	}
 	a:hover {
