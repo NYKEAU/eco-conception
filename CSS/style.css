@@ -20,27 +20,31 @@
 	h1 {
 		color: #fff;
 		background-color: #2ea81c;
-		height: 40px;
-		width: absolute;
 	}
 
 	h2 {
 		color: #fff;
 		background-color: #2ea81c;
+<<<<<<< HEAD
+=======
+		width: 40%;
+>>>>>>> 1dc1c9035095d648bdd3c5122259fcc44d746d7f
 	}
 
 	h3 {
 		color: #fff;
 		background-color: #0f6bbd;
+<<<<<<< HEAD
 		height: 30px;
 		
+=======
+		width: 45%;
+>>>>>>> 1dc1c9035095d648bdd3c5122259fcc44d746d7f
 	}
 
 	p {
 		color: #fff;
-		background-color: #2ea81c;
-		width: 40%;
-		
+		background-color: #2ea81c;		
 	}
 
 	#boxes {
