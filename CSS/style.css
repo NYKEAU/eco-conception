@@ -27,15 +27,13 @@
 	h2 {
 		color: #fff;
 		background-color: #2ea81c;
-		height: 30px;
-		width: 40%;
 	}
 
 	h3 {
 		color: #fff;
 		background-color: #0f6bbd;
 		height: 30px;
-		width: 45%;
+		
 	}
 
 	p {
@@ -93,7 +91,6 @@
 		/*change la couleur du texte du lien*/
 		text-decoration: none;
 	}
-
 	.liens-images a {
 		/* Tous les liens menant à des images */
 		color: #fff;
